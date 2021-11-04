@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    border-bottom: 1px solid #cccccc;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    justify-content: center;
+}
+
+.contentItems {
+    max-width: 1340px;
+    padding-right: 2.5em;
+    padding-left: 2.5em;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.colMenu {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    width: 25%;
+}
+
+.colButton {
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
