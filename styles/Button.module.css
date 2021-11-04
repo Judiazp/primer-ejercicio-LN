@@ -1,0 +1,23 @@
+.primary {
+    background-color: #ffffff;
+    border: 1px solid #0074c4;
+    color: #0074c4;
+}
+
+.primary:hover {
+    background-color: #0074c4;
+    border: 1px solid #0074c4;
+    color: #ffffff;
+}
+
+
+.suscribe {
+    background-color: #ffff24;
+    border: 1px solid #cccccc;
+    color: #000000;
+}
+
+.suscribe:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}

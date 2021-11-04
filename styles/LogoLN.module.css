@@ -1,0 +1,10 @@
+.logoLN {
+    color: #006998;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.logoLN:hover {
+    color: #4F97B8;
+}
