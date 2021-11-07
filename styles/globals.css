@@ -2,7 +2,9 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'LNlogos' !important;}
+  font-family: 'LNlogos' !important;
+  background-color: #FFFFFF
+}
 
 a {
   color: inherit;

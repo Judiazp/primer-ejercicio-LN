@@ -1,0 +1,18 @@
+.main {
+    max-width: 1340px;
+    padding-right: 2.5em;
+    padding-left: 2.5em;
+    margin: auto;
+}
+
+.content {
+    display: flex;
+    margin-top: 40px;
+}
+
+.contentBannerTop {
+    margin-top: 50px;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+}
