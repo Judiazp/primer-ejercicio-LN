@@ -1,0 +1,12 @@
+.tagList {
+    
+}
+
+.anchors {
+    color: #0074c4;
+    margin: 5px;
+}
+
+.anchors:hover {
+    opacity: 0.8;
+}
