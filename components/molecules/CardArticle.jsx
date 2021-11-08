@@ -1,7 +1,16 @@
-import {card, contentImage, body, image, date} from '../../styles/CardArticle.module.css'
+import {card, contentImage, body, image, contentDate} from '../../styles/CardArticle.module.css'
 
 export default function CardArticle({urlImage, title, date}) {
         
+    const dateFormat = (date) => {
+        let formatedDate = new Date(date)
+        return `
+            ${formatedDate.getDate()} de 
+            ${formatedDate.toLocaleString('default', {month: 'long'})} de 
+            ${formatedDate.getFullYear()}
+        `
+    }
+
     return (
         <div className={card}>
             <div className={contentImage} >
@@ -23,8 +32,8 @@ export default function CardArticle({urlImage, title, date}) {
                     </span>
                 </p>
             </div>
-            <div className={date}>
-                <p> {date} </p>
+            <div className={contentDate}>
+                <p> {dateFormat(date)} </p>
             </div>
         </div>
     )
