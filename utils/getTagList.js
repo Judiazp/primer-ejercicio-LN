@@ -12,7 +12,5 @@ export const groupTags = (tags) => {
 }
 
 export const orderTags = (groupTags) => {
-    return Object.keys(groupTags).sort((firtsTag, secondTag) =>
-        groupTags[firtsTag] - groupTags[secondTag]
-    ).reverse()
+    return Object.keys(groupTags).sort((firtsTag, secondTag) => groupTags[secondTag] - groupTags[firtsTag])
 }
