@@ -29,6 +29,17 @@
     margin: .8em 0;
 }
 
-.date {
+.body p:hover {
+    opacity: 0.8;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.contentDate {
     height: 10%;
+}
+
+.contentDate p {
+    font: 400 0.875rem "Arial", "sans-serif";
+    color: #5a5a5a;
 }
