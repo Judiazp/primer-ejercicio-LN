@@ -14,7 +14,7 @@ export default function Anchors({array}) {
                         key={item}
                     >
                         <a className={anchors}>
-                            ·  {item}
+                            {item}
                         </a>
                     </Link>
                 ))

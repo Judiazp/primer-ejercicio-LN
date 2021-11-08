@@ -1,7 +1,8 @@
 import CardArticle from "../molecules/CardArticle";
 import { useArticles } from '../../context/articles'
-import {grid} from '../../styles/GridArticles.module.css'
-import Anchors from "./Anchors";
+import {grid, title} from '../../styles/GridArticles.module.css'
+import Anchors from "../atoms/Anchors";
+import Button from "../atoms/Button";
 
 export default function GridArticles() {
 
@@ -9,7 +10,7 @@ export default function GridArticles() {
 
     return (
         <div>
-            <div className="title">
+            <div className={title}>
                 <h1>Acumulado Grilla</h1>
                 <Anchors array={state.renderTags.slice(0, 10)} />
             </div>
@@ -25,6 +26,9 @@ export default function GridArticles() {
                         />
                     ))
                 }
+            </div>
+            <div align="center">
+                <Button text="mas notas de acumulado grilla" />
             </div>
         </div>
     )

@@ -1,8 +1,78 @@
-.contentSocialNerwork {
-    color: black;
-    height: 500px;
+.contentFooter {
+    max-width: 1340px;
+    padding-right: 2.5em;
+    padding-left: 2.5em;
+    margin: auto;
 }
 
-.icon{
-    color: black;
+.contentFooter p {
+    font-size:  0.875rem;;
+}
+
+.footerHeader{
+    padding-bottom: 0.9375em;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 1.25em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright {
+    width: 50%;
+}
+
+.footerCopyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.25em;
+    height: 50px;
+}
+
+.footerCopyright img {
+    height: 100%;
+}
+
+.footerCopyrightFiscal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 38%;
+
+}
+
+.contentSocialNetwork {
+    width: 20%;
+}
+
+.contentAppStore {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerCopyrightFiscal p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+}
+
+.imgDataFiscal {
+    height: 50px;
+}
+
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.25em;
+}
+
+.captcha {
+    display: flex;
+    align-items: center;
 }
