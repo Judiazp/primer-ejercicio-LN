@@ -1,9 +1,19 @@
 import Footer from "../molecules/Footer";
 import Header from "../molecules/Header";
 import Banner from "../molecules/Banner";
-import {main, content, contentBannerTop, contentChildren} from '../../styles/Layout.module.css'
+import {
+    main, 
+    content, 
+    contentBannerTop, 
+    contentChildren, 
+    spinner
+} from '../../styles/Layout.module.css'
+import { useArticles } from "../../context/articles";
 
 export default function Layout({children}) {
+
+    const {state} = useArticles()
+
     return (
         <div>
             <Header />
@@ -13,7 +23,7 @@ export default function Layout({children}) {
             <main className={main}>
                 <div className={content}>
                     <div className={contentChildren}>
-                        {children}
+                        { !state.loading ? children : <div className={spinner} /> }
                     </div>
                     <div>
                         <Banner orientation='right' />
