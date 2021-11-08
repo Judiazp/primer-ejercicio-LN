@@ -20,8 +20,8 @@ export default function GridArticles() {
                         <CardArticle 
                             key={article._id} 
                             urlImage={article['promo_items'].basic.url}
-                            title={article.headlines.basic} 
-                            description={article['promo_items'].basic.subtitle}
+                            title={article.headlines.basic}
+                            date={article.display_date} 
                         />
                     ))
                 }
