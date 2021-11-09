@@ -1,6 +1,6 @@
 export default function AppleStore() {
     return (
-        <a href="https://apps.apple.com/ar/app/la-nacion/id410689702" target="_blank">
+        <a href="https://apps.apple.com/ar/app/la-nacion/id410689702">
             <svg xmlns="http://www.w3.org/2000/svg" width="120" height="35" viewBox="0 0 120 35">
                 <g fill="none" fillRule="evenodd">
                     <rect width="119.862" height="35" fill="#5A5A5A" rx="3"></rect>

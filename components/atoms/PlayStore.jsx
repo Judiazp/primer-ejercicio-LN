@@ -1,6 +1,6 @@
 export default function PlayStore() {
     return (
-        <a href="https://play.google.com/store/apps/details?id=app.lanacion.activity&amp;hl=es_419" target="_blank" >
+        <a href="https://play.google.com/store/apps/details?id=app.lanacion.activity&amp;hl=es_419">
             <svg xmlns="http://www.w3.org/2000/svg" width="120" height="35" viewBox="0 0 120 35">
             <defs>
                 <linearGradient id="a" x1="60.827%" x2="26.926%" y1="4.947%" y2="71.916%">
