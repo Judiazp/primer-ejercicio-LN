@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faFacebookf} from '@fortawesome/free-solid-svg-icons'
 import LogoLN from '../atoms/LogoLN'
 import Anchors from '../atoms/Anchors'
 import {
