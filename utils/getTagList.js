@@ -5,12 +5,15 @@ export const getTags = (articles) => {
 
 export const groupTags = (tags) => {
     return tags.reduce((acc, tag) => {
-        const { text } = tag
-        acc[text] ? acc[text] += 1 : acc[text] = 1
+        const { text, slug } = tag
+ 
+        acc[text] = acc[text] || {slug, text, count: 0}
+        acc[text].count ? acc[text].count += 1 : acc[text].count = 1
+
         return acc
     }, {})
 }
 
 export const orderTags = (groupTags) => {
-    return Object.keys(groupTags).sort((firtsTag, secondTag) => groupTags[secondTag] - groupTags[firtsTag])
+    return Object.values(groupTags).sort((a,b) => (b.count - a.count ) )
 }
