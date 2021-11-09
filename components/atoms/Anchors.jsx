@@ -10,11 +10,11 @@ export default function Anchors({array}) {
             {
                 array.map( item => (
                     <Link 
-                        href={`#/tema/${item}`}
-                        key={item}
+                        href={`#/tema/${item.slug || item }`}
+                        key={item.slug || item}
                     >
                         <a className={anchors}>
-                            {item}
+                            {item.text || item}
                         </a>
                     </Link>
                 ))
