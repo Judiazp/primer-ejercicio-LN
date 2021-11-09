@@ -7,6 +7,6 @@
 
 .bannerRight {
     width: 300px;
-    height: 70%;
+    min-height: 70vh;
     background: #a0dbe9;
 }
