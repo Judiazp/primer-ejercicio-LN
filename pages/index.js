@@ -25,7 +25,7 @@ export default function Test () {
                 loading: false,
             });
         })
-    }, [])
+    }, [urlApi])
 
     return (
         <ArticlesContext.Provider value={{state}}>
