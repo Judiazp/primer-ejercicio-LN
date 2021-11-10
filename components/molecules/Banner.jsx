@@ -7,6 +7,5 @@ export default function Banner({orientation}) {
                 orientation === 'right' ? bannerRight : bannerTop 
             }
         />
-
     )
 }

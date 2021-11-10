@@ -11,7 +11,8 @@ import {
     contentAppStore,
     contentSocialNetwork,
     links,
-    captcha
+    captcha,
+    appStore
 } from '../../styles/Footer.module.css'
 import PlayStore from '../atoms/PlayStore'
 import AppleStore from '../atoms/AppleStore'
@@ -22,14 +23,18 @@ export default function Footer() {
             <div className={contentFooter}>
                 <section className={footerHeader}>
                     <div className={contentSocialNetwork}>
-                        redes sociales
+                        {/* redes sociales */}
                     </div>
                     <div className="col-desksm-4 col-desk-6 footer-header__logo">
                         <LogoLN />
                     </div>
                     <div className={contentAppStore}>
-                        <PlayStore />
-                        <AppleStore />
+                        <div className={appStore}>
+                            <PlayStore />
+                        </div>
+                        <div className={appStore}>
+                            <AppleStore />
+                        </div>
                     </div>
                 </section>
 

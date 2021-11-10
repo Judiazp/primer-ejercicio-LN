@@ -40,3 +40,19 @@
         transform: rotate(360deg);
     }
 }
+
+@media (max-width: 1024px) {
+    .contentBannerRight {
+        display: none;
+    }
+
+    .content {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .main {
+        padding: 0;
+        justify-content: center;
+    }
+}

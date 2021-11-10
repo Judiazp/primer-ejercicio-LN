@@ -4,7 +4,6 @@
     padding-top: 15px;
     padding-bottom: 15px;
     background: #fff;
-    /* position: fixed; */
     width: 100%;
     justify-content: center;
 }
@@ -30,4 +29,13 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+@media (max-width: 1024px) {
+    .colButton {
+        display: none;
+    }
+    .colMenu {
+        display: none;
+    }
 }

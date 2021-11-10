@@ -9,7 +9,8 @@ import {
     contentBannerTop, 
     contentChildren, 
     spinner,
-    app
+    app,
+    contentBannerRight
 } from '../../styles/Layout.module.css'
 
 export default function Layout({children}) {
@@ -32,7 +33,7 @@ export default function Layout({children}) {
                     <div className={contentChildren}>
                         { !state.loading ? children : <div className={spinner} /> }
                     </div>
-                    <div>
+                    <div className={contentBannerRight}>
                         <Banner orientation='right' />
                     </div>
                 </div>

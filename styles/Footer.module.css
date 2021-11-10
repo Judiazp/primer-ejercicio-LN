@@ -8,7 +8,7 @@
 .contentFooter p {
     font-size:  0.875rem;;
 }
-
+ 
 .footerHeader{
     padding-bottom: 0.9375em;
     border-bottom: 1px solid #cccccc;
@@ -39,7 +39,6 @@
     justify-content: space-between;
     align-items: center;
     width: 38%;
-
 }
 
 .contentSocialNetwork {
@@ -64,7 +63,6 @@
     height: 50px;
 }
 
-
 .links {
     display: flex;
     justify-content: space-between;
@@ -75,4 +73,46 @@
 .captcha {
     display: flex;
     align-items: center;
+}
+
+@media (max-width: 1024px) {
+    .contentFooter {
+        margin-top: 2em;
+    }
+
+    .footerHeader {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .contentSocialNetwork{
+        width: 100%;
+    }
+
+    .contentAppStore {
+        justify-content: center;
+    }
+
+    .appStore {
+        margin: 10px;
+    }
+
+    .footerCopyright {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .footerCopyrightFiscal {
+        width: 100%;
+    }
+
+    .copyright {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .links{
+        display: none;
+    }
 }

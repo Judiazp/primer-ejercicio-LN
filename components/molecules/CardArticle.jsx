@@ -31,9 +31,9 @@ export default function CardArticle({urlImage, title, date}) {
                         que tiene de escudo al Che Guevara y donde izan la bandera de Cuba
                     </span>
                 </p>
-            </div>
-            <div className={contentDate}>
-                <p> {dateFormat(date)} </p>
+                <div className={contentDate}>
+                    <p> {dateFormat(date)} </p>
+                </div>
             </div>
         </div>
     )

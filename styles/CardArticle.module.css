@@ -43,3 +43,17 @@
     font: 400 0.875rem "Arial", "sans-serif";
     color: #5a5a5a;
 }
+
+@media (max-width: 1024px) {
+    .card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 767px) {
+    .card {
+        width: 100%;
+        margin: 0;
+        height: 600px;
+    }
+}
